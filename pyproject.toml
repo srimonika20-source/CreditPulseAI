@@ -1,0 +1,13 @@
+[project]
+name = "creditpulse-ai"
+version = "0.1.0"
+description = "Intelligent credit portfolio monitoring and decision-support platform for banks, NBFCs and lending institutions."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra -q"
+filterwarnings = ["ignore::DeprecationWarning"]

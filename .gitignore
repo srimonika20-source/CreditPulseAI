@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+.venv*/
+venv/
+env/
+
+# --- Secrets (never commit credentials) ---
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- Generated data & databases ---
+# data/raw/ CSVs and metadata are tracked so Streamlit Cloud has immediate access
+*.db
+*.sqlite
+*.sqlite3
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

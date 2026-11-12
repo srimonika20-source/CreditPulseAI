@@ -1,0 +1,16 @@
+branch_id,branch_name,city,state,region,tier
+BR01,Mumbai Central,Mumbai,Maharashtra,West,Metro
+BR02,Pune West,Pune,Maharashtra,West,Metro
+BR03,Nagpur City,Nagpur,Maharashtra,West,Tier 1
+BR04,Nashik Main,Nashik,Maharashtra,West,Tier 2
+BR05,Ahmedabad East,Ahmedabad,Gujarat,West,Metro
+BR06,Surat Ring Road,Surat,Gujarat,West,Tier 1
+BR07,Jaipur Pink City,Jaipur,Rajasthan,North,Tier 1
+BR08,Lucknow Central,Lucknow,Uttar Pradesh,North,Tier 1
+BR09,Indore Main,Indore,Madhya Pradesh,Central,Tier 1
+BR10,Bhopal Lake View,Bhopal,Madhya Pradesh,Central,Tier 2
+BR11,Bengaluru South,Bengaluru,Karnataka,South,Metro
+BR12,Hyderabad North,Hyderabad,Telangana,South,Metro
+BR13,Chennai Central,Chennai,Tamil Nadu,South,Metro
+BR14,Coimbatore Main,Coimbatore,Tamil Nadu,South,Tier 2
+BR15,Kolkata East,Kolkata,West Bengal,East,Metro

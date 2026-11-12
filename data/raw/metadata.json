@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "reporting_date": "2026-10-31",
+  "history_months": 36,
+  "currency": "INR",
+  "row_counts": {
+    "branches": 15,
+    "customers": 17000,
+    "loans": 20000,
+    "repayments": 257156
+  },
+  "synthetic": true
+}

@@ -88,8 +88,8 @@ class AppSettings:
         "data into evidence-backed risk insight through a structured "
         "Detect → Diagnose → Predict → Prescribe → Track workflow."
     )
-    version: str = "0.6.0"
-    current_phase: int = 6
+    version: str = "0.7.0"
+    current_phase: int = 7
     log_level: str = field(default_factory=lambda: os.getenv("CREDITPULSE_LOG_LEVEL", "INFO"))
     database_path: Path = field(
         default_factory=lambda: Path(

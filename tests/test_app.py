@@ -77,6 +77,6 @@ def test_module_pages_render(module) -> None:
     at.run()
     at.switch_page(module.page).run()
     assert not at.exception
-    # Placeholder pages have 0 metrics; implemented module pages display genuine computed metrics.
-    if module.phase > 5:
+    # Placeholder check only applies if a module is in a future unreleased phase.
+    if module.phase > 7:
         assert len(at.metric) == 0
